@@ -1,0 +1,83 @@
+.header
+{
+    background-color: black;
+    width:100%;
+    height:100px;
+}
+
+.header-title
+{
+    color:white;
+    font-weight: 600;
+    font-size:21px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.telephone-text
+{
+    color:white;
+    margin-right:20px;
+    margin-top:10px;
+    display:flex;
+}
+
+.right-text
+{
+    color: white;
+    margin-left: 35%;
+    margin-right: 30px;
+    margin-top: 10px;
+    display:flex;
+}
+
+.cart-text
+{
+    color: white;
+    margin-left: 6px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.second-right-text
+{
+    color: white;
+    margin-left: 11%;
+    margin-top: 20px;
+    margin-right: 14px;
+}
+.search
+{
+    border-radius: 10px;
+    width: 489px;
+    height: 41px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 9%;
+    padding-left: 11px;
+    padding-right: 81px;
+}
+
+.search-btn
+{
+    width: 120px;
+    height: 42px;
+    position: absolute;
+    left: 52.8%;
+    top: 5.7%;
+    padding-top: 10px;
+    background: red;
+    padding-left: 34px;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.icon-color
+{
+    color:red;
+    margin-top: 3px;
+    margin-right: 8px;
+    font-size:13px;
+}
+

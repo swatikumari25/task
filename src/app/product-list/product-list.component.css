@@ -1,0 +1,79 @@
+.new-product-heading
+{
+font-size:19px;
+font-weight:600;
+margin-top:20px;
+margin-bottom:20px;
+margin-left:20px;
+}
+.card
+{
+    margin-top:10px;
+    margin-bottom:10px;
+    height:auto;
+    width:auto;
+    margin-left:20px;
+    margin-right:10px;
+    padding-bottom:20px;
+}
+
+.category
+{
+    text-align: center;
+    color:grey;
+    font-size: 14px;
+}
+
+.price-list
+{
+    color:red;
+    font-weight:bold;
+    font-size:16px;
+    text-align: center;
+}
+
+.product-name
+{
+    font-weight:bold;
+    font-size:16px;
+    text-align: center;
+    color:black;  
+}
+
+.image
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.active {
+    color: red;
+    border-bottom:1px solid red;
+  }
+
+  .icon
+  {
+      padding-left:5px;
+      padding-right:5px;
+  }
+
+  .icon-color
+  {
+      color:red;
+  }
+
+  .new-btn
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    margin-left: 230px;
+    margin-bottom: 20px;
+}
+
+

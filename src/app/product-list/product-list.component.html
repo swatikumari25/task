@@ -1,0 +1,54 @@
+
+<div class="row">
+    <div class="col-8">
+<div class="new-product-heading">NEW PRODUCTS</div>
+</div>
+
+<div class="col-4">
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Laptops</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Smartphones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Camera</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Accessories</a>
+        </li>
+      </ul>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-md-3" *ngFor="let product of productDetails">
+    <div class="card">
+        <div class="card-body">
+            <button class="new-btn">New</button>
+            <img [src]="'https://' +product.imageUrl" class="image"/>
+            <p class="category">{{categoryName}}</p>
+            <p class="product-name">{{product.name}}</p>
+            <p class="price-list">{{product.price.current.text}}</p>
+            <hr/>
+            <div style="text-align:center">
+            <i class="fa fa-star icon-color" aria-hidden="true"></i>
+            <i class="fa fa-star icon-color" aria-hidden="true"></i>
+            <i class="fa fa-star icon-color" aria-hidden="true"></i>
+            <i class="fa fa-star icon-color" aria-hidden="true"></i>
+        </div>
+            <div style="text-align:center">
+            <i class="fa fa-heart-o icon" aria-hidden="true" ></i>
+            <i class="fa fa-arrows-h icon" aria-hidden="true"></i>
+            <i class="fa fa-eye icon" aria-hidden="true"></i>
+        </div>
+        </div>
+       
+      </div>
+    </div> 
+</div> 
+
+
+
+
